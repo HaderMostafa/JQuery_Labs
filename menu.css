@@ -1,0 +1,138 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.hidden {
+	display: none;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+
+.left {
+	width: 70%;
+	background-color: rgb(221, 224, 226);
+}
+
+.right {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: center; */
+	background-color: rgb(176, 177, 179);
+}
+
+#top {
+	text-align: center;
+	height: 400px;
+}
+
+#mainphoto {
+	width: 100%;
+	height: 100%;
+}
+
+#bottom {
+	margin: 5px;
+	display: flex;
+	flex: wrap;
+	justify-content: space-between;
+}
+
+.item {
+	flex-basis: 100px;
+	flex-wrap: wrap;
+	margin: 5px;
+	padding: 1px;
+	border: 5px;
+	border: solid 2px rgb(152, 152, 154);
+	border-radius: 15px;
+}
+
+.item img {
+	max-height: 40vh;
+	max-width: 39vh;
+	border-radius: 15px;
+	/* height: 60%;
+	width: 60%; */
+}
+
+.item h3 {
+	text-align: center;
+}
+
+.item h4 {
+	text-align: center;
+}
+
+.item h5 {
+	width: 95%;
+	text-align: center;
+}
+
+.item button {
+	/* display: block; */
+	width: 30%;
+	margin: 3px auto;
+	height: 2em;
+	font-weight: bold;
+	background-color: rgb(219, 199, 238);
+	margin-left: 35%;
+}
+
+.cart-total {
+	margin: 10px;
+	padding: 5px;
+	width: 60%;
+	height: auto;
+	color: rgb(92, 90, 90);
+	font-size: 30px;
+	font-weight: 150;
+	text-align: center;
+	border-style: groove;
+}
+
+.dropArea {
+	max-height: 400vh;
+	width: 65%;
+	height: 150%;
+	margin-top: 20px;
+	margin: 0 auto;
+	margin-left: 15px;
+	background-color: rgb(168, 164, 172);
+}
+
+.marksArea {
+	width: 30%;
+	height: 150%;
+	background-color: rgb(153, 152, 153);
+}
+
+.marks {
+	/* display: flex;
+	flex: wrap;
+	justify-content: center; */
+	border: solid 1px rgb(35, 45, 47);
+	height: 150px;
+	width: 60%;
+	margin: 12px;
+	padding: 5px;
+	padding-right: 12px;
+	margin-bottom: 220px;
+}
+
+.box {
+	width: 100%;
+	font-size: 25px;
+	font-weight: 150;
+	margin: 5px;
+	text-align: center;
+	padding: 3px;
+	color: rgb(19, 19, 19);
+	/* border: solid 1px rgb(85, 82, 82); */
+	/* background-color: rgb(161, 124, 195); */
+}
